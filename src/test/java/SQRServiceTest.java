@@ -9,7 +9,6 @@ public class SQRServiceTest {
         int expected = 8;
         int actual = service.calcSQR(200, 500);
         Assertions.assertEquals(expected, actual);
-
     }
 
     @Test
